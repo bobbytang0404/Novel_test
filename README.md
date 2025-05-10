@@ -1,6 +1,7 @@
 # FW小说获取代码
 1. 替换自己的 'Cookie'和'User-Agent'
-> 废文网页按F12打开开发者模式，点击Network，左侧列表选择第一个，点开查看Headers,复制其中的Cookie和User-Agent
+> 废文网页按F12打开开发者模式，点击上方菜单栏的 “Network” 选项，此时左侧会出现请求列表，选择列表中的第一个请求项。点击展开该请求后，切换至 “Headers” 标签页，从中分别复制 “Cookie” 与 “User-Agent” 字段对应的值
 2. 替换要爬取的小说链接
-> url = 'https://www.sosad.fun/threads/数字/profile'，每一部小说有其单独编号，复制替换代码中数字部分
+> url = 'https://www.sosad.fun/threads/数字/profile'
+> 每一部小说有其单独编号，复制替换代码中数字部分
 3. 运行代码，程序会在当前代码文件所在的目录下自动创建一个名为 "name" 的文件夹。这个文件夹会与当前代码文件处于同一层级位置，你可以在项目的文件存储列表中找到它。
